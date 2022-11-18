@@ -1,0 +1,27 @@
+/***********************************************************************/
+/* Web del Romanticismo                                                */
+/* Hoja de estilo de la canción del pirata                             */
+/* Autor: David Rodríguez Ruiz                                         */
+/* Version: 1.0                                                        */
+/* 2 de Noviembre de 2022                                               */
+/***********************************************************************/
+
+/*******************ESTILO GENERAL**************************************/
+
+@font-face {
+            font-family: escritura;
+            src: url('../FONTS/graveside-bb/GravesideBB.ttf');
+            }
+
+body {font-family: escritura;
+      text-align: center;
+      font-size: 1.1em;
+      color: rgb(255, 187, 0);
+      background-image: url('../IMAGENES/fondopirata.jpg');
+      background-repeat: repeat-y;
+      background-size: 60%;
+      background-position: right;
+      background-color: rgb(32, 8, 0);}
+
+#poema {width:35%;
+        margin-left: 2%;}

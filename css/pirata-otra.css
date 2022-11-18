@@ -1,0 +1,38 @@
+/***********************************************************************/
+/* Web del Romanticismo                                                */
+/* Hoja de estilo de la canción del pirata - foto de fondo             */
+/* Autor: David Rodríguez Ruiz                                         */
+/* Version: 2.0                                                        */
+/* 9 de Noviembre de 2022                                              */
+/***********************************************************************/
+
+/*******************ESTILO GENERAL**************************************/
+
+@font-face {
+            font-family: escritura;
+            src: url('../FONTS/Xanh_Mono/XanhMono-Regular.ttf');
+    }
+
+body {font-family: escritura;
+        text-align: center;
+        font-size: 1.2em;
+        color: rgb(255, 255, 255);
+        background-image: url('../IMAGENES/barcopirata.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+}
+
+#poema {margin-right: 60%;
+        background-color: black;
+        ;}
+
+.fa {font-size: 200% !important;}
+.fa-facebook-square {color: rgb(46, 111, 250);}
+.fa-twitter-square {color: rgb(4, 151, 255);}
+
+/*******************MEDIA QUERIES ***************************************/
+
+@media only screen and (width<=800px){
+    #poema {color: white;
+            margin-left: 20%;}
+}
